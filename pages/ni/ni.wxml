@@ -1,0 +1,29 @@
+<view class="container">
+    <!-- 头部 -->
+    <view class="header">
+        <image class="avatar" src="../../assets/avatar.png" mode="aspectFill" />
+        <view class="title">
+            <text class="name">吴彦祖</text>
+            <text class="desc">请留下您的个性签名</text>
+        </view>
+        <image class="right" src="../../assets/right.png" mode="aspectFill" />
+    </view>
+
+    <!-- 我的预定 -->
+<view class="reservation">
+      <view class="contnet" >
+          <text class="my_reservation">我的预定</text>
+          <text class="number">3</text>
+      </view>
+      <image class="picture"  src="../../assets/img_booking.svg" />
+</view>
+
+    <!-- 优惠券 -->
+<view class="coupon">
+      <view class="contnet2" >
+          <text class="coupon2">优惠券</text>
+          <text class="number2">6</text>
+      </view>
+      <image class="picture2"  src="../../assets/img_coupon.svg" />
+</view>
+</view>

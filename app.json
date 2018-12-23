@@ -1,0 +1,34 @@
+{
+  "pages": [
+    
+    "pages/D/D",
+    "pages/C/C",
+    "pages/PersonalData/PersonalData",
+    "pages/ni/ni",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人中心",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {  
+    "color": "#a9b7b7",  
+    "selectedColor": "#11cd6e",  
+    "borderStyle": "black" ,
+    "list": [{
+      "selectedIconPath": "assets/首页.png",  
+     "iconPath": "assets/首页.png",
+      "pagePath": "pages/index/index",  
+      "text": "首页"  
+    },{
+      "selectedIconPath": "assets/我的.png",  
+      "iconPath": "assets/我的.png",
+      "pagePath": "pages/ni/ni",  
+      "text": "我的"  
+    }
+    ]  
+  } 
+}

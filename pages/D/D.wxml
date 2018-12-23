@@ -1,0 +1,63 @@
+<view class="contener">
+    <view class="frame">
+        <view class="top">
+            <image class="picture" src="../../assets/avatar.png" mode="aspectFill" />
+            <view class="topLeft">
+                <view class="topLeft1">
+                    <text class="topleft1">白尾鹿舞蹈工作室</text>
+                </view>
+                <view class="topLeft2">
+                    <text class="topleft2">已完成</text>
+                </view>
+            </view>
+        </view>
+        <view class="mid">
+            <view class="content">
+                <view class="Word">
+                    <text class="word">预约时间</text>
+                </view>
+                <view class="Word2">
+                    <text class="word2">2018-09-10\t18:00-19:00</text>
+                </view>    
+            </view>
+            <view class="content">
+                <view class="Word">
+                    <text class="word">地点</text>
+                </view>
+                <view class="Word2">
+                    <text class="word2">科技园\t龙珠四路金谷创业园F栋</text>
+                </view>  
+            </view>
+            <view class="content">
+                <view class="Word">
+                    <text class="word">原价</text>
+                </view>
+                <view class="Word2">
+                    <text class="word2">300元</text>
+                </view> 
+            </view>
+            <view class="content">
+                <view class="Word">
+                    <text class="word">优惠券</text>
+                </view>
+                <view class="Word2">
+                    <text class="word2">-200元</text>
+                </view> 
+            </view>
+            <view class="content">
+                <view class="Word">
+                    <text class="word">总价：</text>
+                </view>
+                <view class="Word2">
+                    <text class="word3">100元</text>
+                </view>  
+            </view>
+        </view>
+        <view class="bottom">
+            <textarea  placeholder="请输入您的评价" placeholder-class="input"></textarea>
+        </view>
+        <view class="Preserve">
+            <text class="preserve">保存</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,132 @@
+page {
+    background-color: rgba(220, 220, 220, .5);
+}
+
+.header {
+    height: 264rpx;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    margin-left: 72rpx;
+    margin-right: 40rpx; 
+}
+
+.right {
+    width: 8rpx;
+    height: 16rpx;
+    margin-left: 80rpx;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 360rpx;
+}
+
+.name {
+    font-family: PingFangSC-Medium;
+    font-size: 32rpx;
+    color: #000000;
+}
+
+.desc {
+    font-family: PingFangSC-Regular;
+    font-size: 26rpx;
+    color: #666666;
+    margin-top: 32rpx;
+}
+
+.picture{
+    position: absolute;
+    right: 20rpx;
+    bottom:-10rpx;
+    width:240rpx;
+    height:240rpx;
+}
+
+.reservation{
+    width:694rpx;
+    height:240rpx;
+    background-image: linear-gradient(45deg, #FF5F1F 0%, #FF791F 100%);
+    box-shadow: 0 8px 16px -4px rgba(70,21,21,0.20);
+    border-radius: 8px;
+    position:relative;
+    margin-top: 68rpx;
+}
+
+.contnet{
+    display: flex;
+    flex-direction: column;
+    width:200rpx;
+    margin-left:72rpx;
+    margin-right:548rpx;
+    margin-top:27rpx;
+}
+
+.my_reservation{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.number{
+    font-family: PingFangSC-Medium;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:5px;
+}
+
+.coupon{
+    background-image: linear-gradient(45deg, #FF5F1F 0%, #FF791F 100%);
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px -4px rgba(70,21,21,0.10);
+    border-radius: 8px;
+    width:694rpx;
+    height:240rpx;
+    margin-top:60rpx;
+    position: relative;
+}
+
+.contnet2{
+    display: flex;
+    flex-direction: column;
+    width:200rpx;
+    margin-left:72rpx;
+    margin-right:548rpx;
+    margin-top:27rpx;
+}
+
+.coupon2{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #7D7D7D;
+    text-align: center;
+}
+
+.number2{
+    font-family: PingFangSC-Medium;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top:5px;
+}
+
+.picture2{
+    position: absolute;
+    right:20rpx;
+    bottom: -30rpx;
+    width:240rpx;
+    height:240rpx;
+}
+
+

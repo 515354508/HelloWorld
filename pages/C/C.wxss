@@ -1,0 +1,123 @@
+.contener{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top
+{
+    width:694rpx;
+    height: 240rpx;
+    background-image: linear-gradient(45deg, #FF5F1F 0%, #FF791F 100%);
+    box-shadow: 0 8px 16px -4px rgba(70,21,21,0.20);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    width:90rpx;
+    height:34rpx;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40rpx;
+}
+
+.second{
+    width:72rpx;
+    height:40rpx;
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 45rpx;
+}
+
+.line{
+    width:72rpx;
+    height:6rpx;
+    background: #FFFFFF;
+    border-radius: 1.5px;
+    margin-top: 40rpx;
+}
+
+.bottom{
+    width:694rpx;
+    height:1000rpx;
+    margin-top:72rpx;
+}
+
+.bottom1{
+    height:200rpx;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #EEEEEE;
+    align-items: center;
+}
+
+.picture{
+    width:144rpx;
+    height:144rpx;
+    border-radius: 8px;
+}
+
+.mid{
+    margin-left: 20rpx;
+    width:530rpx;
+    height: 144rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.midTitle{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #333333;
+    line-height: 16px;
+}
+
+.midDate{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #7D7D7D;
+    text-align: right;
+    line-height: 13px;
+}
+
+.midStress{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #7D7D7D;
+    line-height: 13px;
+}
+
+.right{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #FF791F;
+    text-align: right;
+    line-height: 20px;
+}
+
+.right2{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #2DCFAF;
+    text-align: right;
+    line-height: 20px;
+}

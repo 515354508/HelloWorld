@@ -1,0 +1,125 @@
+<view class="contener">
+    <!-- 上面 -->
+    <view class="top">
+        <view class="content">
+            <view class="first">
+                <text >全部</text>
+            </view>
+            <view class="second">
+                <text >6</text>
+            </view>
+            <view class="line"></view>
+        </view>
+        <view class="content">
+            <view class="first">
+                <text >待付款</text>
+            </view>
+            <view class="second">
+                <text >1</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="first">
+                <text >待开始</text>
+            </view>
+            <view class="second">
+                <text >3</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="first">
+                <text >使用中</text>
+            </view>
+            <view class="second">
+                <text >0</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="first">
+                <text >已完成</text>
+            </view>
+            <view class="second">
+                <text >2</text>
+            </view>
+        </view>
+    </view>
+    <!-- 下面 -->
+    <view class="bottom">
+        <view class="bottom1">
+            <image class="picture" src="../../assets/avatar.png" mode="aspectFill"/>
+            <view class="mid">
+                <view class="m">
+                    <view >
+                        <text class="midTitile">拔刀道</text>
+                    </view>
+                    <view >
+                        <text class="right">待付款</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">2018-09-10\t18:00-19:00</text>
+                 </view>
+                <view >
+                    <text class="midStress">科技园\t龙珠四路金谷创业园F栋</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1">
+            <image class="picture" src="../../assets/avatar.png" mode="aspectFill"/>
+            <view class="mid">
+                <view class="m">
+                    <view >
+                        <text class="midTitile">白鹿尾舞蹈工作室</text>
+                    </view>
+                    <view >
+                        <text class="right2">已完成</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">2018-09-10\t18:00-19:00</text>
+                 </view>
+                <view >
+                    <text class="midStress">科技园\t龙珠四路金谷创业园F栋</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1">
+            <image class="picture" src="../../assets/avatar.png" mode="aspectFill"/>
+            <view class="mid">
+                <view class="m">
+                    <view >
+                        <text class="midTitile">攀岩</text>
+                    </view>
+                    <view >
+                        <text class="right">待开始</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">2018-09-10\t18:00-19:00</text>
+                 </view>
+                <view >
+                    <text class="midStress">科技园\t龙珠四路金谷创业园F栋</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1">
+             <image class="picture" src="../../assets/avatar.png" mode="aspectFill"/>
+            <view class="mid">
+                <view class="m">
+                    <view >
+                        <text class="midTitile">美国主题馆</text>
+                    </view>
+                    <view >
+                        <text class="right2">使用中</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">2018-09-10\t18:00-19:00</text>
+                 </view>
+                <view >
+                    <text class="midStress">科技园\t龙珠四路金谷创业园F栋</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,129 @@
+.contener{
+    width:100%;
+    height:1520rpx;
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame{
+    width:686rpx;
+    height:1436rpx;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px -4px rgba(70,21,21,0.20);
+    border-radius: 8px;
+}
+
+.top{
+    height:280rpx;
+    border-bottom: 1px solid #ECE8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture{
+    width:144rpx;
+    height:144rpx;
+    border-radius: 10%;
+    margin-left: 50rpx;
+    margin-top:80rpx;
+}
+
+.topleft1{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #333333;
+    line-height: 16px;
+}
+
+.topleft2{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #2DCFAF;
+    line-height: 20px;
+}
+
+.topLeft{
+    margin-top: 80rpx;
+    margin-right: 50rpx;
+}
+
+.topLeft2{
+    margin-top: 35rpx;
+}
+
+.mid{
+    height:640rpx;
+    border-bottom: 1px solid #ECE8E8;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    height:120rpx;
+    line-height: 120rpx;
+}
+.word{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #7D7D7D;
+    line-height: 20px;
+}
+
+.word2{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #333333;
+    text-align: right;
+    line-height: 13px;
+}
+
+.word3{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #FF201F;
+}
+
+.Word{
+    margin-left: 50rpx;
+}
+
+.Word2{
+    margin-right: 50rpx;
+}
+
+.input{
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #BBBBBB;
+    text-align: right;
+    line-height: 13px;
+}
+
+.bottom{
+    width:584rpx;
+    height:210rpx;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    margin: 50rpx 50rpx;
+}
+
+.Preserve{
+    width:584rpx;
+    height:88rpx;
+    background-image: linear-gradient(45deg, #FF201F 0%, #FF541F 100%);
+    border-radius: 24px;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    line-height: 88rpx;
+    margin-left: 50rpx;
+}
+
+.preserve{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+}

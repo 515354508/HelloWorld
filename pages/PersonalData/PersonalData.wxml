@@ -1,0 +1,58 @@
+<view class="container">
+	<!-- 头部 -->
+	<view class="header">
+		<image src="../../assets/avatar.png" mode="aspectFill" />
+		<view class="Name">
+			<text class="name">吴彦祖</text>
+		</view>
+	</view>
+
+	<!-- mid中间部分 -->
+	<view class="mid">
+		<view class="input">
+			<view class="left">
+                <text class="content">签名</text>
+            </view>
+			<view class="right">
+                <input type="text" placeholder="编辑个性签名" placeholder-class="input-placeholder"/>
+                <image src="../../assets/编辑.png"  class="editor" mode="aspectFit"/>
+            </view>
+		</view>
+		<view class="input">
+			<view class="left">
+                <text class="content">生日</text>
+            </view>
+			<view class="right">
+                <input type="text" placeholder="点击填写" placeholder-class="input-placeholder"/>
+                <image src="../../assets/right.png" mode="aspectFill" class="picture2"/>
+            </view>
+		</view>
+		<view class="input">
+			<view class="left">
+                <text class="content">身高</text>
+            </view>
+			<view class="right">
+                <input type="text" placeholder="点击填写" placeholder-class="input-placeholder"/>
+                <image src="../../assets/right.png"  mode="aspectFill" class="picture2"/>
+            </view>
+		</view>
+		<view class="input">
+			<view class="left">
+                <text class="content">体重</text>
+            </view>
+			<view class="right">
+                <input type="text" placeholder="点击填写" placeholder-class="input-placeholder"/>
+                <image src="../../assets/right.png" mode="aspectFill" class="picture2"/>
+            </view>
+		</view>
+	</view>
+
+	<!-- 底部 -->
+	<view class="foot">
+		<view class="preserves">
+        <text class="preserves2">保存</text>
+        </view>
+    </view>
+
+</view>
+
