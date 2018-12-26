@@ -13,7 +13,7 @@
     </view>
     <!-- 下面 -->
     <view class="bottom">
-        <view class="bottom1" wx:for="{{state2}}">
+        <view class="bottom1" wx:if="{{index==0&&index==currrent}}"wx:for="{{state2}}">
             <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
             <view class="mid" >
                 <view class="m">
@@ -29,6 +29,25 @@
                  </view>
                 <view >
                     <text class="midStress">{{item.stress}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1" wx:elif="{{index==currrent-1}}">
+            <image class="picture" src="{{item.srr[index]}}" mode="aspectFill"/>
+            <view class="mid" >
+                <view class="m">
+                    <view >
+                        <text class="midTitile">{{item.title[index]}}</text>
+                    </view>
+                    <view >
+                        <text class="right">{{item.right[index]}}</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">{{item.date[index]}}</text>
+                 </view>
+                <view >
+                    <text class="midStress">{{item.stress[index]}}</text>
                 </view>
             </view>
         </view>
