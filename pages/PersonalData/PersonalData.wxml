@@ -50,7 +50,7 @@
 	<!-- 底部 -->
 	<view class="foot">
 		<view class="preserves">
-        <text class="preserves2">保存</text>
+        <text class="preserves2" bindtap="save">保存</text>
         </view>
     </view>
 

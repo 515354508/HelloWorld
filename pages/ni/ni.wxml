@@ -1,6 +1,6 @@
 <view class="container">
     <!-- 头部 -->
-    <view class="header">
+    <view class="header" bindtap="hrefMineInfo">
         <image class="avatar" src="../../assets/avatar.png" mode="aspectFill" />
         <view class="title">
             <text class="name">吴彦祖</text>

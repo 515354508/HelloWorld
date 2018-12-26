@@ -1,10 +1,10 @@
 {
   "pages": [
-    
-    "pages/D/D",
     "pages/C/C",
+    "pages/D/D",
+     "pages/ni/ni",
     "pages/PersonalData/PersonalData",
-    "pages/ni/ni",
+   
     "pages/index/index",
     "pages/logs/logs"
   ],
