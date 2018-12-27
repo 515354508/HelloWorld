@@ -32,7 +32,7 @@
                 </view>
             </view>
         </view>
-        <view class="bottom1" wx:elif="{{current！=0}}">
+        <view class="bottom1" wx:else>
             <image class="picture" src="{{item.srr[current-1]}}" mode="aspectFill"/>
             <view class="mid" >
                 <view class="m">
