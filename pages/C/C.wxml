@@ -13,7 +13,83 @@
     </view>
     <!-- 下面 -->
     <view class="bottom">
-        <view class="bottom1" wx:for="{{state2}}">
+        <view class="bottom1" wx:if="{{current==0}}" wx:for="{{state2}}">
+            <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
+            <view class="mid" >
+                <view class="m">
+                    <view >
+                        <text class="midTitile">{{item.title}}</text>
+                    </view>
+                    <view >
+                        <text class="right">{{item.right}}</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">{{item.date}}</text>
+                 </view>
+                <view >
+                    <text class="midStress">{{item.stress}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1" wx:if="{{current==1 && item.right=='待付款'}}" wx:for="{{state2}}">
+            <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
+            <view class="mid" >
+                <view class="m">
+                    <view >
+                        <text class="midTitile">{{item.title}}</text>
+                    </view>
+                    <view >
+                        <text class="right">{{item.right}}</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">{{item.date}}</text>
+                 </view>
+                <view >
+                    <text class="midStress">{{item.stress}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1" wx:if="{{current==2 && item.right=='待开始'}}" wx:for="{{state2}}">
+            <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
+            <view class="mid" >
+                <view class="m">
+                    <view >
+                        <text class="midTitile">{{item.title}}</text>
+                    </view>
+                    <view >
+                        <text class="right">{{item.right}}</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">{{item.date}}</text>
+                 </view>
+                <view >
+                    <text class="midStress">{{item.stress}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1" wx:if="{{current==3 && item.right=='使用中'}}" wx:for="{{state2}}">
+            <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
+            <view class="mid" >
+                <view class="m">
+                    <view >
+                        <text class="midTitile">{{item.title}}</text>
+                    </view>
+                    <view >
+                        <text class="right">{{item.right}}</text>
+                    </view>
+                </view>
+                <view >
+                    <text class="midDate">{{item.date}}</text>
+                 </view>
+                <view >
+                    <text class="midStress">{{item.stress}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="bottom1" wx:if="{{current==4 && item.right=='已完成'}}" wx:for="{{state2}}">
             <image class="picture" src="{{item.srr}}" mode="aspectFill"/>
             <view class="mid" >
                 <view class="m">
