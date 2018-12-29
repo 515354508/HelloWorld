@@ -50,7 +50,6 @@ Page({
   },
 
   switchState(e) {
-    console.log(e)
     this.setData({
       current: e.currentTarget.dataset.list
     })
