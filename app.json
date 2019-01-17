@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/E/E",
+     "pages/ni/ni",
     "pages/C/C",
     "pages/D/D",
-     "pages/ni/ni",
+    
     "pages/PersonalData/PersonalData",
    
     "pages/index/index",

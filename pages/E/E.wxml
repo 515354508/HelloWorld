@@ -1,0 +1,56 @@
+<view class="contener">
+    <view class="top">
+        <view class="top_left">
+            <text class="topLeft">全部类型</text>
+            <image class="pic" src="../../assets/down.svg" />
+        </view>
+        <view class="top_right">
+            <text class="topRight">全部</text>
+            <image class="pic" src="../../assets/down.svg" />
+        </view>
+    </view>
+    <view class="mid">
+        <input type="text" placeholder="请输入兑换码" placeholder-class="input-placeholder"/>
+        <view class="exchange" >
+            <text class="exchange2">兑换</text>
+        </view>
+    </view>
+    <view class="bottom" wx:for="{{state}}">
+        <view class="bottom_left">
+            <text class="open">{{item.left}}</text>
+        </view>
+        <view class="bottom_right">
+            <view class="bottomtop">
+                <text class="bottomTop">{{item.top}}</text>
+            </view>
+            <view class="picture">
+            <image src="{{item.srr}}" />
+            </view>
+            <view class="bottommid">
+                <text class="bottomMid">{{item.mid}}</text>
+            </view>
+            <view class="bottombottom">
+                <text class="bottomBottom">{{item.bottom}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="bottom">
+        <view class="bottom_left2">
+            <text class="open2">新人优惠</text>
+        </view>
+        <view class="bottom_right">
+            <view class="bottomtop">
+                <text class="bottomTop2">100元</text>
+            </view>
+            <view class="picture">
+            <image src="../../assets/right.png" />
+            </view>
+            <view class="bottommid">
+                <text class="bottomMid2">已过期</text>
+            </view>
+            <view class="bottombottom">
+                <text class="bottomBottom2">有效期至2018-09-10</text>
+            </view>
+        </view>
+    </view>
+</view>
